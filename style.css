@@ -1,0 +1,44 @@
+*{padding: 0;margin: 0;}
+.container{height: 100vh;
+            width: 100vw;
+            color:#444;
+            background:#ffe7e3;
+            text-align: center}
+.love, .no{
+    padding-top: 20%;
+}
+.yes{padding-top: 15%;}
+h2{font-size: 72px; margin-bottom: 30px;}
+.love span{color:#fc9786}
+.love a{text-decoration: none;
+    background: #eee;
+    padding: 10px;
+    margin: 10px 20px;
+    border:6px solid #ddd;
+    border-radius: 20px;
+}
+#no{color: red;}
+#yes{color: green;}
+img{height: 60px;width: 60px;
+     animation: heart 2s linear infinite;}
+
+     @keyframes heart {
+        0%{transform: scale(1);}
+        50%{transform: scale(1.30);}
+        100%{transform: scale(1);}
+        
+     }
+.no a{text-decoration: none;
+    background: #eee;
+    padding: 10px;
+    margin: 10px 20px;
+    border:6px solid #ddd;
+    border-radius: 20px;
+}
+.no2 a{text-decoration: none;
+   background: #eee;
+    padding: 10px;
+    margin: 10px 20px;
+    border:6px solid #ddd;
+    border-radius: 20px;
+}
